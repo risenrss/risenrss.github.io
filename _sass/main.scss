@@ -1,0 +1,38 @@
+$base: #fefdfd;
+$pink: #bb7479;
+$blue: #5788a9;
+
+$snow: #FAF5F4;
+$paleSilver: #DECFCD;
+
+html {
+    background: $base;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 64px;
+    padding: 8px;
+    color: $pink;
+    font-family: 'Birthstone Bounce', cursive;
+}
+
+#flyer {
+    margin: 0 8px;
+    margin-top: 16px;
+    max-width: 600px;
+    box-shadow: 4px 5px 14px 3px #cfcfcf;
+    display: flex;
+
+    img {
+        max-width: 100%;
+        // height: auto;
+        aspect-ratio: auto;
+    }
+}
