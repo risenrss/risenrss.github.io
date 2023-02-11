@@ -22,7 +22,7 @@ $cutoff: 600px;
             justify-content: center;
             width: 100%;
             height: 80px;
-            margin: 8px;
+            margin: 8px 0;
             align-items: center;
 
             a {
@@ -56,8 +56,7 @@ $mobile: $cutoff + 1px;
             display: flex;
             justify-content: center;
             width: 100%;
-            // height: 80px;
-            margin: 8px;
+            margin: 8px 0;
             align-items: center;
 
             a {
