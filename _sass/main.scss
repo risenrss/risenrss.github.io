@@ -5,29 +5,116 @@ $blue: #5788a9;
 $snow: #FAF5F4;
 $paleSilver: #DECFCD;
 
+html, body, h1, h2, h3, a {
+    font-family: 'Poppins', sans-serif;
+    color: $blue;
+}
+
 html {
     background: $base;
 }
 
 body {
-    height: 100vh;
+    min-height: calc(100vh - 64px * 2);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 64px 0;
 }
 
-h1 {
-    font-size: 64px;
+header {
+    font-size: 80px;
     padding: 8px;
     color: $pink;
     font-family: 'Birthstone Bounce', cursive;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        font-family: inherit;
+    }
+}
+
+h1 {
+    font-size: 32px;
+    padding: 8px;
+}
+
+@mixin shadow {
+    box-shadow: 4px 5px 14px 3px #cfcfcf;
+}
+
+iframe {
+    width: calc(100% - 64px);
+    max-width: 800px;
+    margin: 32px 0;
+    aspect-ratio: 16 / 9;
+    @include shadow;
+}
+
+$margins: "top", "right", "bottom", "left";
+@for $i from 1 through 4 {
+    @each $m in $margins {
+        .margin-#{$m}-#{$i} {
+            margin: #{$i * 8}px;
+        }
+        .margin-y-#{$i} {
+            margin: #{$i * 8}px 0;
+        }
+        .margin-x-#{$i} {
+            margin: 0 #{$i * 8}px;
+        }
+    }
+}
+
+
+
+@mixin btn {
+    color: white;
+    background: $blue;
+    border: none;
+    font-size: 24px;
+    padding: 16px 24px;
+    cursor: pointer;
+    text-decoration: none;
+    @include shadow;
+
+    &.big {
+        padding: 24px 48px;
+    }
+
+    &:hover {
+        background: lighten($blue, 5%);
+    }
+
+    &.inverse {
+        background: none;
+        color: $blue;
+        font-weight: bold;
+        border: solid 2px $blue;
+
+        &:hover {
+            color: white;
+            background: $blue;
+        }
+    }
+
+
+    &:active {
+        background: $blue;
+    }
+}
+
+button, .btn-link {
+    @include btn;
 }
 
 #flyer {
-    margin: 0 8px;
+    margin: 0 32px;
     margin-top: 16px;
     max-width: 600px;
-    box-shadow: 4px 5px 14px 3px #cfcfcf;
+    @include shadow;
     display: flex;
 
     img {
@@ -35,4 +122,8 @@ h1 {
         // height: auto;
         aspect-ratio: auto;
     }
+}
+
+.flex {
+    display: flex;
 }
