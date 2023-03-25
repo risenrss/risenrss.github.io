@@ -1,44 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PY47EGN45L"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PY47EGN45L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-            gtag('config', 'G-PY47EGN45L');
-        </script>
+      gtag('config', 'G-PY47EGN45L');
+    </script>
 
-        <!-- Primary Meta Tags -->
-        <title>{{ page.title }}</title>
-        <meta name="title" content="{{ page.title }}">
-        <meta name="description" content="April 6-8, 2023. 2540 N. Broad St. Fuquay-Varina, NC">
+    <!-- Primary Meta Tags -->
+    <title>{{ page.title }}</title>
+    <meta name="title" content="{{ page.title }}">
+    <meta name="description" content="April 6-8, 2023. 2540 N. Broad St. Fuquay-Varina, NC">
 
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://risenrss.com/">
-        <meta property="og:title" content="{{ page.title }}">
-        <meta property="og:description" content="April 6-8, 2023. 2540 N. Broad St. Fuquay-Varina, NC">
-        <meta property="og:image" content="https://risenrss.com/assets/images/banner.jpg">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://risenrss.com/">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="April 6-8, 2023. 2540 N. Broad St. Fuquay-Varina, NC">
+    <meta property="og:image" content="https://risenrss.com/assets/images/banner.jpg">
 
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://risenrss.com/">
-        <meta property="twitter:title" content="{{ page.title }}">
-        <meta property="twitter:description" content="April 6-8, 2023. 2540 N. Broad St. Fuquay-Varina, NC">
-        <meta property="twitter:image" content="https://risenrss.com/assets/images/banner.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://risenrss.com/">
+    <meta property="twitter:title" content="{{ page.title }}">
+    <meta property="twitter:description" content="April 6-8, 2023. 2540 N. Broad St. Fuquay-Varina, NC">
+    <meta property="twitter:image" content="https://risenrss.com/assets/images/banner.jpg">
 
-        <link rel="shortcut icon" type="image/jpg" href="/assets/favicon.ico"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="/assets/css/styles.css?v={{ site.time | date:'%s' }}">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&family=Poppins&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header><a href="/">Risen 2023</a></header>
-        {{ content }}
-    </body>
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/assets/css/styles.css?v={{ site.time | date:'%s' }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@500&family=Poppins&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <a href="/">Risen 2023</a>
+    </header>
+    {{ content }}
+    {% if page.audio %}
+      <h1>
+        {{ page.audio-title }}
+      </h1>
+      <audio controls>
+        <source src="/assets/audio/{{ page.audio }}" type="audio/mpeg" />
+      </audio>
+    {% endif %}
+  </body>
 </html>
