@@ -67,12 +67,15 @@ section {
     box-shadow: 4px 5px 14px 3px #cfcfcf;
 }
 
-iframe {
+iframe, video {
     width: calc(100% - 64px);
     max-width: 600px;
     margin: 32px 0;
-    aspect-ratio: 16 / 9;
     @include shadow;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
 }
 
 $margins: "top", "right", "bottom", "left";
