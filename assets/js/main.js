@@ -13,4 +13,6 @@ const urlParams = new URLSearchParams(window.location.search);
 const lang = urlParams.get('lang');
 if (lang) {
     document.querySelector('html').setAttribute('lang', lang);
+} else {
+    document.querySelector('html').setAttribute('lang', 'en');
 }
