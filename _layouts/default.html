@@ -47,7 +47,10 @@
   </head>
   <body>
     <header>
-      <a href="/">Risen 2024</a>
+      <a data-lang="en" href="/">Risen 2024</a>
+      <a data-lang="es" href="/?lang=es">Risen 2024</a>
+      <button class="translate-link" data-lang="en" onclick="switchLanguage()">Español</button>
+      <button class="translate-link" data-lang="es" onclick="switchLanguage()">English</button>
     </header>
     {{ content }}
     {% if page.audio %}
@@ -58,5 +61,6 @@
         <source src="/assets/audio/{{ page.audio }}" type="audio/mpeg" />
       </audio>
     {% endif %}
+    <script src="/assets/js/main.js?v={{ site.time | date:'%s' }}"></script>
   </body>
 </html>

@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
-<h1>An Easter Celebration</h1>
-<div>March 28-30, 2024</div>
+<h1>{% include translate.html en="An Easter Celebration" es="Una celebración de Pascua" %}</h1>
+<div>
+  {% include translate.html en="March 28-30, 2024" es="28-30 de marzo de 2024" %}
+</div>
 <div>2540 Broad Street, Fuquay-Varina, NC</div>
 <iframe
   src="https://www.youtube.com/embed/v4aw0RAU65g?modestbranding=1"
@@ -11,17 +13,17 @@ layout: default
   allowfullscreen></iframe>
 
 <div class="flex margin-y-3">
-  <a class="btn-link big" href="/volunteer">Volunteer</a>
+  <a class="btn-link big" data-lang="en" href="/volunteer">Volunteer</a>
+  <a class="btn-link big" data-lang="es" href="/volunteer?lang=es">Voluntario</a>
 </div>
 
 <section>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d810.7864891417319!2d-78.81853505174776!3d35.62412815176743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac8ffc697a572f%3A0x8cac1a212a08911b!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2sus!4v1677720616805!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
-<div id="flyer">
+<div class="flyer" data-lang="en">
   <img src="/assets/images/flyer-2024-en.jpeg" alt="He is Risen Easter Celebration. Thursday March 28, 6-8PM. Friday March 29, young family/homeschool event 9-10:30am, open admission 6-8PM. Saturday March 30, 1-4PM. Please Join Us. Live scenes of Christ's final week. Christ-centered art gallery. Live Easter music. Interactive children and youth activities. The Church of Jesus Christ of Latter-day Saints. 2540 North Broad Street, Fuquay-Varina">
 </div>
-<div id="flyer">
-  <!-- TODO spanish alt text -->
-  <img src="/assets/images/flyer-2024-es.jpeg">
+<div class="flyer" data-lang="es">
+  <img src="/assets/images/flyer-2024-es.jpeg" alt="Él ha resucitado Celebración de Pascua. Jueves 28 de marzo, de 6 a 8 PM. Viernes 29 de marzo, evento para familias jóvenes de 9 a 10:30 AM, abierta al público de 6 a 8 PM. Sábado 30 de marzo, de 1 a 4 PM. Únase a nosotros. Escenas en vivo de la última semana de Cristo. Galería de arte centrada en Cristo. Música de Semana Santa en vivo. Actividades interactivas para niños y jóvenes. La Iglesia de Jesucristo de los Santos de los Últimos Días. 2540 North Broad Street, Fuquay-Varina.">
 </div>

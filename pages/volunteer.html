@@ -2,7 +2,9 @@
 layout: default
 permalink: /volunteer
 ---
-<h1>Volunteer Forms</h1>
+<h1>
+  {% include translate.html en="Volunteer Forms" es="Formularios de voluntariado" %}
+</h1>
 <div id="link-container">
   <div class="column">
     {% for form in site.data.volunteerLinks %}
@@ -13,7 +15,9 @@ permalink: /volunteer
             class="btn-link"
             href="{{ form.url }}"
             target="_blank"
-            rel="noopener noreferrer">{{ form.name }}</a>
+            rel="noopener noreferrer">
+              {% include translate.html en=form.name es=form.es %}
+          </a>
         </div>
       {% endif %}
     {% endfor %}
@@ -27,7 +31,7 @@ permalink: /volunteer
             class="btn-link"
             href="{{ form.url }}"
             target="_blank"
-            rel="noopener noreferrer">{{ form.name }}</a>
+            rel="noopener noreferrer">{% include translate.html en=form.name es=form.es %}</a>
         </div>
       {% endif %}
     {% endfor %}
