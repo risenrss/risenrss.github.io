@@ -4,4 +4,5 @@ defaults:
       path: ""
       type: "pages"
     values:
-      title: "Risen - An Easter Celebration"
+      title: "He is Risen - An Easter Celebration"
+      lang: "en"

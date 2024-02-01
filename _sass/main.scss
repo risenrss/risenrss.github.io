@@ -1,6 +1,7 @@
 $base: #fefdfd;
 $pink: #bb7479;
 $blue: #5788a9;
+$black: #2e2e2e;
 
 $snow: #FAF5F4;
 $paleSilver: #DECFCD;
@@ -46,10 +47,15 @@ header {
     color: $pink;
     font-family: 'Birthstone Bounce', cursive;
 
+    @media screen and (max-width: 600px) {
+        font-size: 66px;
+    }
+
     a {
         text-decoration: none;
         color: inherit;
         font-family: inherit;
+        text-align: center;
     }
 }
 
@@ -70,19 +76,52 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 24px;
+    padding: 8px;
+    text-align: center;
+}
+
 section {
     background: lighten($pink, 25%);
+
+    &.white {
+        background: none;
+    }
+
     width: 100%;
     display: flex;
     padding: 48px 32px;
     box-sizing: border-box;
     margin: 16px 0;
+    flex-direction: column;
+    color: $black;
 
     div {
         max-width: 600px;
         width: 100%;
         margin: auto;
-        font-size: 1.3em;
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+
+    // narrower horizontal padding at smaller screen sizes
+    @media screen and (max-width: 600px) {
+        padding: 48px 24px;
+
+        div {
+            font-size: 1em;
+        }
+    }
+
+    h2 {
+        color: $black;
+        margin-bottom: 16px;
+    }
+
+
+    ul {
+        margin: 0px 32px;
     }
 
     iframe {
@@ -104,6 +143,10 @@ iframe, video {
 
 iframe {
     aspect-ratio: 16 / 9;
+
+    &.yt-video {
+        margin-bottom: 24px;
+    }
 }
 
 $margins: "top", "right", "bottom", "left";
@@ -113,10 +156,10 @@ $margins: "top", "right", "bottom", "left";
             margin: #{$i * 8}px;
         }
         .margin-y-#{$i} {
-            margin: #{$i * 8}px 0;
+            margin: #{$i * 8}px auto;
         }
         .margin-x-#{$i} {
-            margin: 0 #{$i * 8}px;
+            margin: auto #{$i * 8}px;
         }
     }
 }
@@ -167,7 +210,6 @@ button, .btn-link {
 
 .flyer {
     margin: 0 32px;
-    margin-top: 16px;
     max-width: 600px;
     @include shadow;
     display: flex;
@@ -189,6 +231,7 @@ button, .btn-link {
 
 .flex {
     display: flex;
+    justify-content: center;
 }
 
 audio {

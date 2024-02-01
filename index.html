@@ -1,29 +1,183 @@
 ---
 layout: default
 ---
-<h1>{% include translate.html en="An Easter Celebration" es="Una celebración de Pascua" %}</h1>
+<h1>{% include translate.html
+    en="An Easter Celebration"
+    es="Una celebración de Pascua"
+  %}
+</h1>
 <div>
-  {% include translate.html en="March 28-30, 2024" es="28-30 de marzo de 2024" %}
+  {% include translate.html
+    en="March 28-30, 2024"
+    es="28-30 de marzo de 2024"
+  %}
 </div>
 <div>2540 Broad Street, Fuquay-Varina, NC</div>
-<iframe
-  src="https://www.youtube.com/embed/v4aw0RAU65g?modestbranding=1"
-  title="Risen 2023 Commercial"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen></iframe>
 
-<div class="flex margin-y-3">
-  <a class="btn-link big" data-lang="en" href="/volunteer">Volunteer</a>
-  <a class="btn-link big" data-lang="es" href="/volunteer?lang=es">Voluntario</a>
+<section>
+  <h2>
+    {% include translate.html
+      en="Come and See!"
+      es="¡Ven y mira!"
+    %}
+  </h2>
+  {% include yt-video.html id="4vVOEZtFzss" title="Risen Commercial" %}
+  <div>
+    <ul>
+      <li>{% include translate.html
+          en="Live scenes of the last week of the Savior’s life"
+          es="Escenas en vivo de la última semana de la vida del Salvador"
+        %}
+      </li>
+      <li>{% include translate.html
+          en="Live Music from around the community"
+          es="Música en vivo de la comunidad"
+        %}
+      </li>
+      <li>{% include translate.html
+          en="Life of Christ Art Gallery"
+          es="Galería de arte de la vida de Cristo"
+        %}
+      </li>
+      <li>{% include translate.html
+          en="Interactive Children’s rooms teaching the Stories of Jesus"
+          es="Salas interactivas para niños que enseñan las historias de Jesús"
+        %}
+      </li>
+      <li>{% include translate.html
+          en="Interactive Youth rooms teaching the Parables of Jesus"
+          es="Salas interactivas para jóvenes que enseñan las parábolas de Jesús"
+        %}
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="white" id="volunteer">
+  <h2>
+    {% include translate.html
+      en="Come and Help!"
+      es="¡Ven y ayuda!"
+    %}
+  </h2>
+  <!-- {% include yt-video.html id="v4aw0RAU65g" title="Risen 2023 Commercial" %} -->
+  <div>
+    {% include translate.html
+      en="Volunteer your time and talents. You can help set up, help with costumes, act in a silent role, usher, perform music, create, help take down. Is there something you can do?"
+      es="Ofrece tu tiempo y tus talentos como voluntario. Puedes ayudar a montar, ayudar con el vestuario, actuar en un papel silencioso, acomodar, interpretar música, crear y ayudar a desmontar. ¿Hay algo que puedas hacer?"
+    %}
+  </div>
+  <div class="flex margin-y-3">
+    <a class="btn-link big" data-lang="en" href="https://forms.gle/kx8TXGzZhfyhU8368">Volunteer</a>
+    <a class="btn-link big" data-lang="es" href="https://forms.gle/kx8TXGzZhfyhU8368">Voluntario</a>
+  </div>
+</section>
+
+<section>
+  <h2>
+    {% include translate.html
+      en="Come and participate in the youth art project!"
+      es="¡Ven y participa en el proyecto de arte juvenil!"
+    %}
+  </h2>
+  {% include yt-video.html id="ITys_c9vfyI" title="Risen Children and Youth Art Gallery" %}
+  <div>
+    {% include translate.html
+      en="How can you share your testimony of Jesus Christ through art? You can submit art in the form of dance, sculpture, poetry, writing, origami, wood work, metal work, animation, 3D printing, slow motion photography, video making, Lego building, rock art, ceramics and so much more!"
+      es="¿Cómo puedes compartir tu testimonio de Jesucristo a través del arte? Puedes enviar arte en forma de danza, escultura, poesía, escritura, origami, trabajo en madera, trabajo en metal, animación, impresión 3D, fotografía en cámara lenta, creación de videos, construcción de legos, arte rupestre, cerámica y mucho más."
+    %}
+  </div>
+  <div class="flex margin-y-3">
+    <a class="btn-link big" data-lang="en" href="https://forms.gle/5zRpHuabrNWJSC6q8">Submit art!</a>
+    <a class="btn-link big" data-lang="es" href="https://forms.gle/5zRpHuabrNWJSC6q8">¡Presentar el arte!</a>
+  </div>
+</section>
+
+<section class="white">
+  <h2>
+    {% include translate.html
+      en="Come and Share!"
+      es="¡Ven y comparte!"
+    %}
+  </h2>
+  {% include yt-video.html id="V48xGGTm_t4" title="Share and Invite to Risen!" %}
+  <div>
+    <p>
+      {% include translate.html
+        en="Thursday, March 28:"
+        es="Jueves, Marzo 28:"
+      %}
+    </p>
+    <p>
+      {% include translate.html
+        en="Open Admission"
+        es="Abierta al público"
+      %}
+    </p>
+    <p>
+      6:00-8:00 pm
+    </p>
+    <br />
+    <p>
+      {% include translate.html
+        en="Friday, March 29:"
+        es="Viernes, Marzo 29:"
+      %}
+    </p>
+    <p>
+      {% include translate.html
+        en="Young Family/Homeschool Event"
+        es="Evento para familias jóvenes"
+      %}
+    </p>
+    <p>
+      9:00-10:30 am
+    </p>
+    <p>
+      {% include translate.html
+        en="Open Admission"
+        es="Abierta al público"
+      %}
+    </p>
+    <p>
+      6:00-8:00 pm
+    </p>
+    <br />
+    <p>
+      {% include translate.html
+        en="Saturday, March 30:"
+        es="Sábado, Marzo 30:"
+      %}
+    </p>
+    <p>
+      {% include translate.html
+        en="Open Admission"
+        es="Abierto al público"
+      %}
+    </p>
+    <p>
+      1:00-4:00 pm
+    </p>
+
+  </div>
+  <div class="flex margin-y-3">
+    <a class="btn-link big" href="https://linktr.ee/risenrss">
+      {% include translate.html
+        en="Connect with us!"
+        es="¡Conéctate con nosotros!"
+      %}
+    </a>
+  </div>
+</section>
+
+<div class="flyer" data-lang="en">
+  <img src="/assets/images/English-Risen-flyer-4x6.jpg" alt="He is Risen Easter Celebration. Thursday March 28, 6-8PM. Friday March 29, young family/homeschool event 9-10:30am, open admission 6-8PM. Saturday March 30, 1-4PM. Please Join Us. Live scenes of Christ's final week. Christ-centered art gallery. Live Easter music. Interactive children and youth activities. The Church of Jesus Christ of Latter-day Saints. 2540 North Broad Street, Fuquay-Varina">
+</div>
+<div class="flyer" data-lang="es">
+  <img src="/assets/images/Spanish-Risen-flyer-4x6.jpg" alt="Él ha resucitado Celebración de Pascua. Jueves 28 de marzo, de 6 a 8 PM. Viernes 29 de marzo, evento para familias jóvenes de 9 a 10:30 AM, abierta al público de 6 a 8 PM. Sábado 30 de marzo, de 1 a 4 PM. Únase a nosotros. Escenas en vivo de la última semana de Cristo. Galería de arte centrada en Cristo. Música de Semana Santa en vivo. Actividades interactivas para niños y jóvenes. La Iglesia de Jesucristo de los Santos de los Últimos Días. 2540 North Broad Street, Fuquay-Varina.">
 </div>
 
 <section>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d810.7864891417319!2d-78.81853505174776!3d35.62412815176743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac8ffc697a572f%3A0x8cac1a212a08911b!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2sus!4v1677720616805!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
-<div class="flyer" data-lang="en">
-  <img src="/assets/images/flyer-2024-en.jpeg" alt="He is Risen Easter Celebration. Thursday March 28, 6-8PM. Friday March 29, young family/homeschool event 9-10:30am, open admission 6-8PM. Saturday March 30, 1-4PM. Please Join Us. Live scenes of Christ's final week. Christ-centered art gallery. Live Easter music. Interactive children and youth activities. The Church of Jesus Christ of Latter-day Saints. 2540 North Broad Street, Fuquay-Varina">
-</div>
-<div class="flyer" data-lang="es">
-  <img src="/assets/images/flyer-2024-es.jpeg" alt="Él ha resucitado Celebración de Pascua. Jueves 28 de marzo, de 6 a 8 PM. Viernes 29 de marzo, evento para familias jóvenes de 9 a 10:30 AM, abierta al público de 6 a 8 PM. Sábado 30 de marzo, de 1 a 4 PM. Únase a nosotros. Escenas en vivo de la última semana de Cristo. Galería de arte centrada en Cristo. Música de Semana Santa en vivo. Actividades interactivas para niños y jóvenes. La Iglesia de Jesucristo de los Santos de los Últimos Días. 2540 North Broad Street, Fuquay-Varina.">
-</div>
