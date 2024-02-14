@@ -237,3 +237,33 @@ button, .btn-link {
 audio {
     margin-top: 24px;
 }
+
+section.faq {
+    padding-top: 0;
+}
+
+details {
+    margin-bottom: 16px;
+    border: solid #c5c5c5 1px;
+    padding: 20px;
+    background: lighten($pink, 35%);
+    font-size: 0.9em;
+
+    // target open details only
+    &[open] {
+        summary {
+            margin-bottom: 10px;
+        }
+    }
+    summary {
+        font-size: 1.2em;
+
+        &::marker {
+            color: $blue;
+        }
+    }
+
+    // summary::marker {
+    // }
+
+}

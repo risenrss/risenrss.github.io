@@ -1,0 +1,272 @@
+[
+    {
+        "category_en": "Come and See Questions",
+        "category_es": "Ven y Ve Preguntas",
+        "questions": [
+            {
+                "question_en": "What is HE IS RISEN?",
+                "question_es": "¿Qué es ÉL HA RESUCITADO?",
+                "answer_en": "He Is Risen is a community Easter celebration for all ages. We celebrate Christ through music, live acting, interactive and educational activities, Christ-centered art displays and childrens’ playrooms. There is something for everyone to enjoy. We welcome all faiths and organizations to learn and celebrate what we have in common, as we gather together for this event.",
+                "answer_es": "Él ha resucitado es una celebración comunitaria de Pascua para todas las edades. Celebramos a Cristo a través de la música, actuaciones en vivo, actividades interactivas y educativas, exhibiciones de arte centradas en Cristo y salas de juegos para niños. Hay algo para que todos disfruten. Damos la bienvenida a todas las creencias y organizaciones para que aprendan y celebren lo que tenemos en común, mientras nos reunimos para este evento."
+            },
+            {
+                "question_en": "Is this event free?",
+                "question_es": "¿Es este evento gratuito?",
+                "answer_en": "HE IS RISEN is free and parking is free as well.",
+                "answer_es": "ÉL HA RESUCITADO es gratuito y el estacionamiento también es gratuito."
+            },
+            {
+                "question_en": "Do I need tickets for He Is Risen?",
+                "question_es": "¿Necesito boletos para Él ha resucitado?",
+                "answer_en": "No! No tickets are needed.",
+                "answer_es": "¡No! No se necesitan boletos."
+            },
+            {
+                "question_en": "Who can come to HE IS RISEN?",
+                "question_es": "¿Quién puede venir a ÉL HA RESUCITADO?",
+                "answer_en": "Everyone! He Is Risen was created for our entire community. Whether you celebrate Easter or not, we want to share this event with you. He Is Risen is an experience for all ages.",
+                "answer_es": "¡Todos! Él ha resucitado fue creado para toda nuestra comunidad. Ya sea que celebres la Pascua o no, queremos compartir este evento contigo. Él ha resucitado es una experiencia para todas las edades."
+            },
+            {
+                "question_en": "Can I bring a large group to HE IS RISEN?",
+                "question_es": "¿Puedo traer un grupo grande a ÉL HA RESUCITADO?",
+                "answer_en": "Yes, you can! It might be best to avoid Saturday events, as they are typically the busiest. Reaching out and letting us know ahead of time will help us to be prepared to welcome any larger groups.",
+                "answer_es": "¡Sí, puedes! Sería mejor evitar los eventos del sábado, ya que suelen ser los más concurridos. Comunicarse con nosotros y avisarnos con anticipación nos ayudará a estar preparados para dar la bienvenida a grupos más grandes."
+            },
+            {
+                "question_en": "When is the best time to attend with a young family?",
+                "question_es": "¿Cuál es el mejor momento para asistir con una familia joven?",
+                "answer_en": "People are welcome to attend at any time. However, we set aside a special day for young families. This enables younger participants to have more space and take their time learning in each room. Please look at the dates to find the early morning, weekday session.",
+                "answer_es": "Las personas son bienvenidas a asistir en cualquier momento. Sin embargo, reservamos un día especial para las familias jóvenes. Esto permite que los participantes más jóvenes tengan más espacio y se tomen su tiempo para aprender en cada sala. Consulta las fechas para encontrar la sesión de la mañana temprano entre semana."
+            },
+            {
+                "question_en": "Can I bring my homeschool group to HE IS RISEN?",
+                "question_es": "¿Puedo traer a mi grupo de educación en el hogar a ÉL HA RESUCITADO?",
+                "answer_en": "Yes! We have a special day set aside for homeschool groups. This enables younger participants to have more space and take their time learning in each room. Please look at the dates to find the early morning, weekday session.",
+                "answer_es": "¡Sí! Tenemos un día especial reservado para los grupos de educación en el hogar. Esto permite que los participantes más jóvenes tengan más espacio y se tomen su tiempo para aprender en cada sala. Consulta las fechas para encontrar la sesión de la mañana temprano entre semana."
+            },
+            {
+                "question_en": "Is this building handicap accessible?",
+                "question_es": "¿Es accesible para personas discapacitadas este edificio?",
+                "answer_en": "Yes, the building has handicap parking, ramps, automatic doors, wheelchair accessible restrooms, wide hallways and doorways.",
+                "answer_es": "Sí, el edificio tiene estacionamiento para discapacitados, rampas, puertas automáticas, baños accesibles para sillas de ruedas, pasillos anchos y puertas."
+            },
+            {
+                "question_en": "Does HE IS RISEN support the audio or the visually impaired?",
+                "question_es": "¿Apoya ÉL HA RESUCITADO a personas con discapacidad auditiva o visual?",
+                "answer_en": "Most of this event focuses on both audio and visual components, many of the activities also allow for hands-on interaction. We are confident that this event will be enjoyable for everyone.",
+                "answer_es": "La mayoría de este evento se centra en componentes tanto auditivos como visuales, muchas de las actividades también permiten la interacción práctica. Estamos seguros de que este evento será agradable para todos."
+            },
+            {
+                "question_en": "Will I have to wait in line for a long time to get in?",
+                "question_es": "¿Tendré que esperar en fila durante mucho tiempo para entrar?",
+                "answer_en": "No, there is no line to get into the building. You are welcome to explore He Is Risen in any order and at your own pace.",
+                "answer_es": "No, no hay fila para entrar al edificio. Eres bienvenido a explorar Él ha resucitado en cualquier orden y a tu propio ritmo."
+            },
+            {
+                "question_en": "What languages are supported at HE IS RISEN?",
+                "question_es": "¿Qué idiomas se admiten en ÉL HA RESUCITADO?",
+                "answer_en": "He Is Risen audio and documentation are in both English and Spanish.",
+                "answer_es": "El audio y la documentación de Él ha resucitado están en inglés y español."
+            },
+            {
+                "question_en": "Will someone be available to give me a tour?",
+                "question_es": "¿Habrá alguien disponible para darme un recorrido?",
+                "answer_en": "Yes, we have volunteers available at every event to give private tours.",
+                "answer_es": "Sí, tenemos voluntarios disponibles en cada evento para dar recorridos privados."
+            },
+            {
+                "question_en": "Will I be pressured by religious beliefs at this event?",
+                "question_es": "¿Me sentiré presionado por creencias religiosas en este evento?",
+                "answer_en": "Not at all. Our goal is to celebrate the life of Jesus Christ and the Easter season with our community in a spirit of peace and rejoicing. We put the focus on ways that bring our entire community together in worship, understanding, and education.",
+                "answer_es": "Para nada. Nuestro objetivo es celebrar la vida de Jesucristo y la temporada de Pascua con nuestra comunidad en un espíritu de paz y alegría. Ponemos el foco en formas de unir a toda nuestra comunidad en adoración, comprensión y educación."
+            }
+        ]
+    },
+    {
+        "category_en": "Come and Help Questions",
+        "category_es": "Ven y Ayuda Preguntas",
+        "questions": [
+            {
+                "question_en": "How do I volunteer?",
+                "question_es": "¿Cómo me ofrezco como voluntario?",
+                "answer_en": "Click the Volunteer button on the website and fill out the form. You can choose what type of volunteer work you prefer to do. We will contact you when we are closer to the event for scheduling.",
+                "answer_es": "Haz clic en el botón de Voluntario en el sitio web y completa el formulario. Puedes elegir qué tipo de trabajo voluntario prefieres hacer. Nos pondremos en contacto contigo cuando estemos más cerca del evento para programar."
+            },
+            {
+                "question_en": "Will the Volunteers be trained?",
+                "question_es": "¿Los voluntarios recibirán capacitación?",
+                "answer_en": "Training will be provided for all event staff immediately preceding the assigned time slot. No prior knowledge or experience necessary.",
+                "answer_es": "Se proporcionará capacitación para todo el personal del evento inmediatamente antes del horario asignado. No se requiere conocimiento o experiencia previa."
+            },
+            {
+                "question_en": "What ages can volunteer?",
+                "question_es": "¿Qué edades pueden ser voluntarios?",
+                "answer_en": "Please see individual volunteer slots for ages (above).",
+                "answer_es": "Consulte las ranuras individuales de voluntarios para edades (arriba)."
+            },
+            {
+                "question_en": "Can volunteers sign up to do music and acting/ushering at the same event?",
+                "question_es": "¿Los voluntarios pueden inscribirse para hacer música y actuación/control de entrada en el mismo evento?",
+                "answer_en": "No, please only sign up for one volunteer slot per event. You are welcome to sign up for an additional volunteer slot during another session.",
+                "answer_es": "No, por favor inscríbase solo para una ranura de voluntario por evento. Puede inscribirse para una ranura de voluntario adicional durante otra sesión."
+            }
+        ]
+    },
+    {
+        "category_en": "Come and Help - Set Up Questions",
+        "category_es": "Ven y Ayuda - Preguntas de Configuración",
+        "questions": [
+            {
+                "question_en": "What is set up like?",
+                "question_es": "¿Cómo es la configuración?",
+                "answer_en": "SET UP will include everything from putting together larger sets, to distributing supplies to classrooms, to vacuuming and more. (And we will be providing pizza!) The date and time is on the volunteer form.",
+                "answer_es": "La CONFIGURACIÓN incluirá desde armar conjuntos más grandes, distribuir suministros en las aulas, pasar la aspiradora y más. (¡Y estaremos proporcionando pizza!) La fecha y la hora están en el formulario de voluntariado."
+            },
+            {
+                "question_en": "How old do you have to be to help with set up/take down?",
+                "question_es": "¿Qué edad tienes que tener para ayudar con la configuración/desmontaje?",
+                "answer_en": "We can use adults and youth 14+ to help.",
+                "answer_es": "Podemos usar adultos y jóvenes de 14 años en adelante para ayudar."
+            }
+        ]
+    },
+    {
+        "category_en": "Come and Help - Music Questions",
+        "category_es": "Ven y Ayuda - Preguntas de Música",
+        "questions": [
+            {
+                "question_en": "Who can participate musically?",
+                "question_es": "¿Quién puede participar musicalmente?",
+                "answer_en": "We welcome all Christ centered musical performances that invoke a spirit of reverence. We welcome vocal and/or instrumental performances (unplugged).",
+                "answer_es": "Damos la bienvenida a todas las actuaciones musicales centradas en Cristo que invocan un espíritu de reverencia. Damos la bienvenida a actuaciones vocales y/o instrumentales (sin amplificación)."
+            },
+            {
+                "question_en": "Who can perform?",
+                "question_es": "¿Quién puede actuar?",
+                "answer_en": "Adults, children, youth, families, individuals, groups… anyone!",
+                "answer_es": "¡Adultos, niños, jóvenes, familias, individuos, grupos... cualquiera!"
+            },
+            {
+                "question_en": "What types of performances are allowed?",
+                "question_es": "¿Qué tipos de actuaciones están permitidas?",
+                "answer_en": "Any Christ-centered or Easter-centered music is welcome! Because the music can be heard in the live scenes, we ask that the music be performed in a spirit of reverence. Most instruments are fine, we just ask no drums.",
+                "answer_es": "¡Toda la música centrada en Cristo o en la Pascua es bienvenida! Dado que la música se puede escuchar en las escenas en vivo, pedimos que la música se interprete con espíritu de reverencia. La mayoría de los instrumentos están bien, solo pedimos que no haya tambores."
+            }
+        ]
+    },
+    {
+        "category_en": "Come and Help - Usher Questions",
+        "category_es": "Ven y Ayuda - Preguntas de Acomodador",
+        "questions": [
+            {
+                "question_en": "How old do you have to be to usher?",
+                "question_es": "¿Qué edad tienes que tener para ser acomodador?",
+                "answer_en": "The Ushers can be adults or youth (14+).",
+                "answer_es": "Los acomodadores pueden ser adultos o jóvenes (14+)."
+            },
+            {
+                "question_en": "What do ushers do?",
+                "question_es": "¿Qué hacen los acomodadores?",
+                "answer_en": "When you arrive at the event, the usher will be assigned a room to attend. The usher will be given a list of to-do’s for that room. The usher will answer any questions, restock supplies, and clean up their station as needed.",
+                "answer_es": "Cuando llegues al evento, se asignará un acomodador a una sala. Al acomodador se le dará una lista de tareas para esa sala. El acomodador responderá cualquier pregunta, repondrá suministros y limpiará su estación según sea necesario."
+            }
+        ]
+    },
+    {
+        "category_en": "Come and Help - Acting Questions",
+        "category_es": "Ven y Ayuda - Preguntas de Actuación",
+        "questions": [
+            {
+                "question_en": "How old do you have to be to be an actor?",
+                "question_es": "¿Qué edad tienes que tener para ser actor?",
+                "answer_en": "The Triumphal Entry features 2 children or youth ages 8 and up. The role of the apostles is for ages 14 and up. Mary and the angel at the Empty Tomb need to be 14 and up. The role of Jesus needs to be a man age 18 and up.",
+                "answer_es": "La Entrada Triunfal presenta 2 niños o jóvenes de 8 años en adelante. El papel de los apóstoles es para mayores de 14 años. María y el ángel en el sepulcro vacío deben tener 14 años en adelante. El papel de Jesús debe ser interpretado por un hombre de 18 años en adelante."
+            },
+            {
+                "question_en": "What do actors do?",
+                "question_es": "¿Qué hacen los actores?",
+                "answer_en": "Simple ACTING parts will involve silent gesturing while event attendees listen to prerecorded audio describing the scenes. The only speaking role is one adult who welcomes guests into the Triumphal Entry. No auditions or rehearsals required.",
+                "answer_es": "Las partes de actuación SIMPLE implicarán gestos silenciosos mientras los asistentes al evento escuchan audio pregrabado que describe las escenas. El único papel de habla es el de un adulto que da la bienvenida a los invitados a la Entrada Triunfal. No se requieren audiciones ni ensayos."
+            }
+        ]
+    },
+    {
+        "category_en": "Come and Help - Parking Lot Attendant Questions",
+        "category_es": "Ven y Ayuda - Preguntas de Atención en el Estacionamiento",
+        "questions": [
+            {
+                "question_en": "What does it mean to be a parking attendant?",
+                "question_es": "¿Qué significa ser un asistente de estacionamiento?",
+                "answer_en": "The parking lot attendant must be an adult. They will assist attendees with parking as needed. They will help the flow of the activity by parking guests systematically around the building.",
+                "answer_es": "El asistente de estacionamiento debe ser un adulto. Ayudarán a los asistentes con el estacionamiento según sea necesario. Ayudarán al flujo de la actividad estacionando a los invitados de manera sistemática alrededor del edificio."
+            }
+        ]
+    },
+    {
+        "category_en": "Come and Help - Costume Help Questions",
+        "category_es": "Ven y Ayuda - Preguntas de Ayuda con los Trajes",
+        "questions": [
+            {
+                "question_en": "What tasks do costume volunteers do?",
+                "question_es": "¿Qué tareas realizan los voluntarios de los trajes?",
+                "answer_en": "They help to keep costumes organized and clean, gather costumes for each actor, help with fittings, etc. There is no sewing involved.",
+                "answer_es": "Ayudan a mantener los trajes organizados y limpios, reúnen los trajes para cada actor, ayudan con las pruebas, etc. No se requiere costura."
+            }
+        ]
+    },
+    {
+        "category_en": "Come and Help - Take Down Questions",
+        "category_es": "Ven y Ayuda - Preguntas de Desmontaje",
+        "questions": [
+            {
+                "question_en": "What is take down like?",
+                "question_es": "¿Cómo es el desmontaje?",
+                "answer_en": "TAKE DOWN will occur following the final session of He Is Risen. It will include things like taking the large sets down, putting items back into storage, and cleaning and vacuuming to prepare the church for meetings the following day. We can use adults and youth 14+ to help. (And we will be providing donuts!) The date and time is on the volunteer form.",
+                "answer_es": "El DESMONTAJE ocurrirá después de la última sesión de Él ha resucitado. Incluirá cosas como desmontar los conjuntos grandes, guardar los artículos en almacenamiento y limpiar y pasar la aspiradora para preparar la iglesia para las reuniones del día siguiente. Podemos usar adultos y jóvenes de 14 años en adelante para ayudar. (¡Y estaremos proporcionando donas!) La fecha y la hora están en el formulario de voluntariado."
+            }
+        ]
+    },
+    {
+        "category_en": "Come and Create - Children's Art Questions",
+        "category_es": "Ven y Crea - Preguntas de Arte para Niños",
+        "questions": [
+            {
+                "question_en": "Why do we need art?",
+                "question_es": "¿Por qué necesitamos arte?",
+                "answer_en": "Creating Christ centered art gives the children and youth an opportunity to strengthen their testimony of Christ. Likewise, our testimonies are strengthened when we witness their testimonies through their art.",
+                "answer_es": "Crear arte centrado en Cristo les da a los niños y jóvenes la oportunidad de fortalecer su testimonio de Cristo. De igual manera, nuestros testimonios se fortalecen cuando presenciamos sus testimonios a través de su arte."
+            },
+            {
+                "question_en": "How do I turn in my art?",
+                "question_es": "¿Cómo entrego mi arte?",
+                "answer_en": "You will collect it from them by February 25th and get it to your nearest Risen leader.",
+                "answer_es": "Lo recogerás de ellos antes del 25 de febrero y lo llevarás a tu líder de Risen más cercano."
+            }
+        ]
+    },
+    {
+        "category_en": "Come and Create - Youth Art Questions",
+        "category_es": "Ven y Crea - Preguntas de Arte para Jóvenes",
+        "questions": [
+            {
+                "question_en": "Why do we need art?",
+                "question_es": "¿Por qué necesitamos arte?",
+                "answer_en": "Creating Christ centered art gives the children and youth an opportunity to strengthen their testimony of Christ. Likewise, our testimonies are strengthened when we witness their testimonies through their art.",
+                "answer_es": "Crear arte centrado en Cristo les da a los niños y jóvenes la oportunidad de fortalecer su testimonio de Cristo. De igual manera, nuestros testimonios se fortalecen cuando presenciamos sus testimonios a través de su arte."
+            }
+        ]
+    },
+    {
+        "category_en": "Share and Invite Questions",
+        "category_es": "Compartir e Invitar Preguntas",
+        "questions": [
+            {
+                "question_en": "Can I bring people of different faiths to He Is Risen?",
+                "question_es": "¿Puedo traer a personas de diferentes creencias a Él ha resucitado?",
+                "answer_en": "Absolutely! We welcome everyone in the community.",
+                "answer_es": "¡Absolutamente! Damos la bienvenida a todos en la comunidad."
+            }
+        ]
+    }
+]

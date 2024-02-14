@@ -1,0 +1,32 @@
+---
+layout: default
+permalink: /faq
+---
+<h1>
+    {% include translate.html
+        en="Frequently Asked Questions"
+        es="Preguntas Frecuentes"
+    %}
+</h1>
+<section class="white faq">
+    {% for category in site.data.faq %}
+        <h2 class="margin-y-2">
+            {% include translate.html
+            en=category.category_en
+            es=category.category_es
+            %}
+        </h2>
+        <div>
+            {% for question in category.questions %}
+                <details data-lang="en">
+                    <summary>{{question.question_en}}</summary>
+                    {{question.answer_en}}
+                </details>
+                <details data-lang="es">
+                    <summary>{{question.question_es}}</summary>
+                    {{question.answer_es}}
+                </details>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</section>
