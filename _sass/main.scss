@@ -176,6 +176,7 @@ div {
     padding: 16px 24px;
     cursor: pointer;
     text-decoration: none;
+    text-align: center;
     @include shadow;
 
     &.big {
